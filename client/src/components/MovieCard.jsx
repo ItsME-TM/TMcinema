@@ -28,7 +28,7 @@ function MovieCard({ movie }) {
           .join(" | ")}
         • {timeFormat(movie.runtime)}
       </p>
-      <div className="flex items-center justify-between mt-4 pd-3">
+      <div className="flex items-center justify-between mt-2">
         <button
           className="px-4 py-2 text-xs bg-primary hover:bg-primary-dull transition
             rounded-full font-medium cursor-pointer"
