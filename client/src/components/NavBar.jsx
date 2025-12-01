@@ -31,7 +31,7 @@ function NavBar() {
         <Link
           to="/"
           onClick={() => {
-            scrollTo(0, 0), setIsOpen(false);
+            scrollTo(0, 0); setIsOpen(false);
           }}
         >
           Home
@@ -39,7 +39,7 @@ function NavBar() {
         <Link
           to="/movies"
           onClick={() => {
-            scrollTo(0, 0), setIsOpen(false);
+            scrollTo(0, 0); setIsOpen(false);
           }}
         >
           Movies
@@ -47,7 +47,7 @@ function NavBar() {
         <Link
           to="/"
           onClick={() => {
-            scrollTo(0, 0), setIsOpen(false);
+            scrollTo(0, 0); setIsOpen(false);
           }}
         >
           Theaters
@@ -55,7 +55,7 @@ function NavBar() {
         <Link
           to="/"
           onClick={() => {
-            scrollTo(0, 0), setIsOpen(false);
+            scrollTo(0, 0); setIsOpen(false);
           }}
         >
           Releases
@@ -63,7 +63,7 @@ function NavBar() {
         <Link
           to="/Favorites"
           onClick={() => {
-            scrollTo(0, 0), setIsOpen(false);
+            scrollTo(0, 0); setIsOpen(false);
           }}
         >
           Favorites
