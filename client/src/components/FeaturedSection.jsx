@@ -8,7 +8,7 @@ import MovieCard from "./MovieCard";
 function FeaturedSection() {
   const navigate = useNavigate();
   return (
-    <div className="px-6  md:px-16 overflow-hidden">
+    <div className="px-6  md:px-16 overflow-hidden min-h-screen py-10">
       <div className="relative flex items-center justify-between pt-20 pb-10">
         <BlurCircle top='0' right='-80px'/>
         <p className="text-gray-300 font-medium text-lg">Now Showing</p>
@@ -23,7 +23,7 @@ function FeaturedSection() {
             <MovieCard key={show._id} movie={show}/>
         ))}
       </div>
-      <div className="flex justify-center mt-20">
+      <div className="flex justify-center mt-12">
         <button 
         onClick={() => {navigate("/movies"); scrollTo(0,0)}}
         className="px-10 py-3 text-sm bg-primary hover:bg-primary-dull transition
