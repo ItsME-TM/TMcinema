@@ -61,7 +61,7 @@ function NavBar() {
           Releases
         </Link>
         <Link
-          to="/Favorites"
+          to="/favorites"
           onClick={() => {
             scrollTo(0, 0); setIsOpen(false);
           }}

@@ -283,6 +283,75 @@ export const dummyShowsData = [
     vote_count: 23569,
     runtime: 127,
   },
+  {
+    _id: "939243",
+    id: 939243,
+    title: "Superman",
+    overview:
+      "Clark Kent is working at the Daily Planet in Metropolis, quietly helping the world as Superman. As threats rise and a brilliant, dangerous new figure named Lex Luthor gains influence, Clark finds himself torn between duty and compassion.",
+    poster_path:
+      "https://upload.wikimedia.org/wikipedia/en/5/5a/Superman_%282025_film%29_poster.jpg",
+    backdrop_path:
+      "https://img.youtube.com/vi/voBxLJ6t2mk/maxresdefault.jpg",
+    genres: [
+      { id: 28, name: "Action" },
+      { id: 878, name: "Science Fiction" },
+      { id: 12, name: "Adventure" },
+    ],
+    casts: dummyCastsData,
+    release_date: "2025-07-11",
+    original_language: "en",
+    tagline: "Truth, Justice, and a Better Tomorrow.",
+    vote_average: 0,
+    vote_count: 0,
+    runtime: 130,
+  },
+  {
+    _id: "10676052",
+    id: 10676052,
+    title: "The Fantastic Four: First Steps",
+    overview:
+      "Marvel's First Family—Reed Richards, Sue Storm, Johnny Storm and Ben Grimm—face their most daunting challenge yet as they must defend Earth from a ravenous space god called Galactus and his enigmatic Herald, Silver Surfer.",
+    poster_path:
+      "https://upload.wikimedia.org/wikipedia/en/8/8e/The_Fantastic_Four_First_Steps_poster.jpg",
+    backdrop_path:
+      "https://img.youtube.com/vi/AzMo-FgRp64/maxresdefault.jpg",
+    genres: [
+      { id: 28, name: "Action" },
+      { id: 12, name: "Adventure" },
+      { id: 878, name: "Science Fiction" },
+    ],
+    casts: dummyCastsData,
+    release_date: "2025-07-25",
+    original_language: "en",
+    tagline: "Welcome to the family.",
+    vote_average: 0,
+    vote_count: 0,
+    runtime: 115,
+  },
+  {
+    _id: "955916",
+    id: 955916,
+    title: "Jurassic World Rebirth",
+    overview:
+      "Five years after the events of Jurassic World Dominion, the planet's ecology has proven largely inhospitable to dinosaurs. Zora Bennett leads a team on a top-secret mission to secure genetic material from the three most colossal creatures left, holding the key to a miraculous life-saving drug.",
+    poster_path:
+      "https://upload.wikimedia.org/wikipedia/en/9/9b/Jurassic_World_Rebirth_poster.jpg",
+    backdrop_path:
+      "https://img.youtube.com/vi/34PB__pXQ_U/maxresdefault.jpg",
+    genres: [
+      { id: 28, name: "Action" },
+      { id: 12, name: "Adventure" },
+      { id: 53, name: "Thriller" },
+    ],
+    casts: dummyCastsData,
+    release_date: "2025-07-02",
+    original_language: "en",
+    tagline: "Life finds a way.",
+    vote_average: 0,
+    vote_count: 0,
+    runtime: 133,
+  },
 ];
 
 export const dummyDateTimeData = {
