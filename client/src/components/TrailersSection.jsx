@@ -24,7 +24,7 @@ function TrailersSection() {
       </p>
 
       <div
-        className="relative mt-6">
+        className="relative mt-2">
         <BlurCircle top="-100px" right="0px" />
         <iframe
           className="mx-auto max-w-full"
